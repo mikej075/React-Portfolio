@@ -1,0 +1,31 @@
+@import "../../vars.css";
+
+.container {
+  font-family: 'Inter', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-top: 76px;
+  color: var(--color-text);
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.title {
+  font-size: 45px;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.projects {
+  margin-top: 37px; /* Adds space above the project section */
+  display: flex; /* Uses flexbox for layout */
+  flex-direction: row; /* Aligns items in a horizontal row */
+  flex-wrap: wrap; /* Allows items to wrap to a new row if needed */
+  align-items: center; /* Aligns items vertically at the center */
+  justify-content: center; /* Centers items horizontally */
+  gap: 25px; /* Adds space between items */
+  width: 100%; /* Ensures the section takes full width */
+}

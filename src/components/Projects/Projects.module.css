@@ -1,0 +1,32 @@
+@import "../../vars.css";
+
+/* Container styles */
+.container {
+  margin-top: 76px; /* Adds space above the container */
+  color: var(--color-text); /* Uses a CSS variable for text color */
+  margin-left: 10%; /* Centers the container with left margin */
+  margin-right: 10%; /* Centers the container with right margin */
+}
+
+/* Title styles */
+.title {
+  font-size: 45px; /* Sets a large font size for the title */
+  font-weight: 700; /* Makes the title bold */
+  letter-spacing: 1.75px; /* Adds spacing between letters for readability */
+  text-transform: uppercase; /* Converts text to uppercase */
+  text-align: center;
+
+}
+
+/* Project container styles */
+.projects {
+  margin-top: 37px; /* Adds space above the project section */
+  display: flex; /* Uses flexbox for layout */
+  flex-direction: row; /* Aligns items in a horizontal row */
+  flex-wrap: wrap; /* Allows items to wrap to a new row if needed */
+  align-items: center; /* Aligns items vertically at the center */
+  justify-content: center; /* Centers items horizontally */
+  gap: 25px; /* Adds space between items */
+  width: 100%; /* Ensures the section takes full width */
+}
+

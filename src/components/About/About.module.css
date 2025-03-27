@@ -1,0 +1,109 @@
+@import "../../vars.css";
+
+/* Container styles */
+.container {
+  position: relative; /* Positions the container relative to its normal position */
+  background-color: rgb(0, 0, 0); /* Sets background to black */
+  border-radius: 15px; /* Rounds the corners of the container */
+  padding: 73px; /* Adds padding inside the container */
+  margin-top: 50px; /* Adds space above the container */
+  z-index: 1; /* Ensures the container appears above other elements */
+  margin-left: 10%; /* Centers the container with left margin */
+  margin-right: 10%; /* Centers the container with right margin */
+
+}
+
+/* Title styles */
+.title {
+  color: var(--color-text); /* Uses a CSS variable for text color */
+  font-size: 45px; /* Sets a large font size */
+  font-weight: 700; /* Makes the title bold */
+  letter-spacing: 1.75px; /* Adds spacing between letters */
+  text-transform: uppercase; /* Converts text to uppercase */
+  text-align: center;
+  margin-bottom: 50px;
+  
+}
+
+/* Content container styles */
+.content {
+  display: flex; /* Uses flexbox for layout */
+  flex-direction: row; /* Aligns items in a row */
+  align-items: center; /* Centers items vertically */
+}
+
+/* Image styles */
+.aboutImage {
+  width: 35%; /* Sets image width to 35% of the container */
+}
+
+/* About items container */
+.aboutItems {
+  color: var(--color-text); /* Inherits text color from variable */
+  display: flex; /* Uses flexbox */
+  flex-direction: column; /* Aligns items in a vertical column */
+  gap: 50px; /* Adds space between items */
+}
+
+/* Individual about item */
+.aboutItem {
+  display: flex; /* Uses flexbox */
+  flex-direction: row; /* Aligns content in a row */
+  align-items: center; /* Centers items vertically */
+  border-radius: 20px; /* Rounds the corners */
+  list-style: none; /* Removes default list styling */
+  padding: 25px; /* Adds padding inside the item */
+  background-color: var(--color-secondary); /* Uses secondary color */
+  background-image: linear-gradient(
+    90deg,
+    rgba(232, 6, 6, 0.42) 0%, /* Red gradient start */
+    rgba(188, 11, 11, 0) 100% /* Transparent fade-out */
+  );
+  background-size: 0 100%; /* Starts with no visible gradient */
+  background-repeat: no-repeat; /* Prevents repetition of the background */
+  transition: 0.4s; /* Adds smooth transition effect */
+}
+
+/* Hover effect for about item */
+.aboutItem:hover {
+  background-size: 100% 100%; /* Expands gradient on hover */
+}
+
+/* About item heading */
+.aboutItem h3 {
+  font-size: 25px; /* Sets font size for heading */
+  font-weight: 600; /* Medium font weight */
+}
+
+/* About item paragraph */
+.aboutItem p {
+  font-size: 25px; /* Sets font size for paragraph */
+  
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 830px) {
+  .container {
+    background-color: transparent; /* Removes background color */
+    padding-left: 0; /* Removes left padding */
+    padding-right: 0; /* Removes right padding */
+  }
+
+  .content {
+    flex-direction: column; /* Stacks elements vertically */
+  }
+
+  .aboutImage {
+    display: none; /* Hides the image on small screens */
+  }
+
+  .aboutItems {
+    margin-top: 29px; /* Adds spacing above the about items */
+  }
+
+  .aboutItem {
+    padding-left: 0; /* Removes left padding */
+    padding-right: 0; /* Removes right padding */
+  }
+}
+

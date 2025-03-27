@@ -1,0 +1,28 @@
+[
+    {
+      "description": "AWS Cloud Solutions Architect (SAA-C03)",
+      "demo": "certificates/certificate.png",
+      "skills": ["AWS"],
+      "source": "https://www.credly.com/badges/941ebdbf-331a-48d9-a126-63a82a914350/linked_in?t=st6gzu"
+    },
+    {
+      "description": "AWS Certified Cloud Practitioner CLF-C02",
+      "demo": "certificates/certificate.png",
+      "skills": ["AWS"],
+      "source": "https://www.credly.com/badges/ef200566-8c5a-4a0e-82cd-fc50e97e353e"
+    },
+    {
+      "description": "Python for Data Science, AI & Development",
+      "demo": "certificates/certificate.png",
+      "skills": ["Coursera"],
+      "source": "https://drive.google.com/file/d/1AYm_CA02OxURdsmF5LFV6yAJCeGi9X1t/view"
+    },
+    {
+      "description": "Introduction to Web Develpment With HTML",
+      "demo": "certificates/certificate.png",
+      "skills": ["Coursera"],
+      "source": "https://drive.google.com/file/d/1OHLBeVp9-JIiE9OXMb4ymfR_OSPMnNzK/view"
+    }
+    
+  ]
+  
